@@ -1,0 +1,9 @@
+capacity_data.csv : time (minutes) vs capacity (coulombs). 
+Charging occurs first, with 4 total charging half-cycles and 4 total discharging half-cycles. Charging converts AQDS into AHQDQS, its reduced form, and discharging is the opposite reaction. 
+
+dimer_conc_data.csv : time (minutes) vs dimer concentration (molar)
+This data was generated from UV-vis spectrophotometry
+
+Total quinone concentration - that is ox form + red form + 2xdimer - should be constant the whole time, so you can use the combination of charge/discharge capacity data and measured dimer concentration to calculate the concentration of each quinone species at each time. 
+
+The granularity is different for each file and the end times of both files varies by a few minutes. Assume both data sets have identical t=0 timepoints.
